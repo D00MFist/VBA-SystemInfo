@@ -1,2 +1,3 @@
-# ctf
-WIP scanning script for CTFs. Runs nmap and applciable automated scans based on results (nikto, nse, etc.)
+# VBA Sysinfo
+Use Alt + F11 to enter VBA
+Right Click any object, View Code, Paste and Run 
