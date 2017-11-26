@@ -13,6 +13,9 @@ MsgBox "Host name: " & objAdapter.DNSHostName & vbCrLf & _
            "Description: " & objAdapter.Description & vbCrLf & _
            "Physical(MAC) address: " & objAdapter.MACAddress & vbCrLf & _
            "IP address: " & objAdapter.IPAddress(i) & vbCrLf & _
-           "Subnet:  " & objAdapter.IPSubnet(i)
+           "Subnet:  " & objAdapter.IPSubnet(i) & vbCrLf & _
+           "DNS Suffix: " & objAdapter.DNSDomain & vbCrLf & _
+           "Primary WINS server: " & objAdapter.WINSPrimaryServer & vbCrLf & _
+           "Secondary WINS server: " & objAdapter.WINSSecondaryServer
 Next objAdapter
 End Sub
